@@ -2,8 +2,10 @@ package org.example.hellojpa;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "member")
 public class Member {
 
     @Id
